@@ -67,3 +67,15 @@ footer{
     width: 80%;
     height: 80%;
 }
+@media (max-width:800px){
+    .description button{
+        margin-top: 10%;
+    }
+    .description p{
+       margin-top: 10%;
+    }
+    .topsection img{
+        padding: 2.5%;
+        width: 50%;
+    }
+}
