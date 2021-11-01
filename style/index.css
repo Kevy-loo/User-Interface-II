@@ -67,3 +67,53 @@ footer{
     width: 80%;
     height: 80%;
 }
+@media (max-width:800px){
+    .description button{
+        margin-top: 10%;
+    }
+    .description p{
+       margin-top: 10%;
+    }
+    .topsection img{
+        padding: 2.5%;
+        width: 50%;
+    }
+}
+@media (max-width:500px){
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    a{
+        border: 1px solid grey;
+        width: 20%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .topsection{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .topsection div{
+        width: 90%;
+
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container div{
+        width: 50%;
+    }
+}
+
